@@ -5,6 +5,7 @@ export default function Home() {
     <div>
       <h1>Ami Asokumar</h1>
       <p>My Home Page!</p>
+      <img src="../../../..//images/Ami Grad Pic.JPG" alt="Ami Asokumar"></img>
     </div>
   );
 }
