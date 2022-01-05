@@ -32,7 +32,7 @@ export default function Contact() {
       <div>
         <a href="https://www.linkedin.com/in/amitabh-asokumar-861384155/">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
+            src="https://1000logos.net/wp-content/uploads/2018/04/Gmail-logo-new.jpg"
             alt="The LinkedIn logo"
             width="280"
             height="280"
