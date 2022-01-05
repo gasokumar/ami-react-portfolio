@@ -22,11 +22,11 @@ A portfolio of code projects built with React
 
   ## Usage
 
-  Click through the links to learn more about me and what I've done!
+  Click through the links to learn more about me and my past work!
 
   ## Contributing
 
-  Unfortunately, contributions are not welcome on this application!
+  Unfortunately, contributions are not welcome on this application.
 
   ## Tests
 
