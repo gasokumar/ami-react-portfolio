@@ -30,7 +30,7 @@ export default function Contact() {
       </div>
       {/* E-mail */}
       <div>
-        <a href="https://www.linkedin.com/in/amitabh-asokumar-861384155/">
+        <a href="mailto:gasokumar@gmail.com">
           <img
             src="https://1000logos.net/wp-content/uploads/2018/04/Gmail-logo-new.jpg"
             alt="The LinkedIn logo"
