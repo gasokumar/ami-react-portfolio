@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <div>
-      <div style="display-4"> Ami Asokumar </div>
+      <div> Ami Asokumar </div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}

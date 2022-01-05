@@ -1,10 +1,11 @@
 import React from "react";
-
-export default function Blog() {
+import Project from "../Project";
+export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>My Projects will go here</p>
+      <p>These are my projects!</p>
+      <Project />
     </div>
   );
 }
