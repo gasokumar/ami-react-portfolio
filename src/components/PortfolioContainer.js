@@ -1,35 +1,40 @@
-import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+// This component is what everything will be passed to
+import React, { useState } from "react";
+// Importing everything we need to build our react portfolio.
+import NavTabs from "./NavTabs";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  // Setting the default state of currentPage as 'Home'
+  const [currentPage, setCurrentPage] = useState("Home");
 
-  // TODO: Add a comment describing the functionality of this method
+  // This function returns a page based on the current page.
   const renderPage = () => {
-    if (currentPage === 'Home') {
+    if (currentPage === "Home") {
       return <Home />;
     }
-    if (currentPage === 'About') {
+    if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
     }
     return <Contact />;
   };
 
+  // This function changes the state of the current page to whatever page you pass in.
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
+      {/* Header will go here */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+
       {renderPage()}
+      {/* Footer will go here */}
     </div>
   );
 }

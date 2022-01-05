@@ -1,16 +1,20 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I'm a recent graduate of the Johns Hopkins University with a Bachelors
+        of Science in Neuroscience. I completed my undergraduate degree with a
+        pre-med track, but upon graduation I decided that medical school wasn't
+        for me. As a neuroscience major, I've learned much about the human
+        nervous system, but my recent coursework has shifted my interests
+        towards healthcare and technology. My rich background in neuroscience,
+        physics, and biochemistry has supplemented my experience in the
+        healthcare industry. Additionally, I enjoy problem-solving and working
+        with other people. I'd like to put these skills to use to further any
+        organization that I become a part of.
       </p>
     </div>
   );
