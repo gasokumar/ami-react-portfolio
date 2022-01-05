@@ -16,6 +16,12 @@ export default function About() {
         with other people. I'd like to put these skills to use to further any
         organization that I become a part of.
       </p>
+      {/* Center this later */}
+      <img
+        src="https://mma.prnewswire.com/media/1138646/Johns_Hopkins_University_Logo.jpg?p=facebook"
+        height="280"
+        width="500"
+      />
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default function Contact() {
       <div>
         <a href="mailto:gasokumar@gmail.com">
           <img
-            src="https://1000logos.net/wp-content/uploads/2018/04/Gmail-logo-new.jpg"
+            src="https://static.dezeen.com/uploads/2020/10/gmail-google-logo-rebrand-workspace-design_dezeen_2364_sq.jpg"
             alt="The LinkedIn logo"
             width="280"
             height="280"
