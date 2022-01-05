@@ -30,11 +30,10 @@ export default function Header() {
 
   return (
     <div>
-      <div> Ami Asokumar </div>
+      <strong> Ami Asokumar </strong>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
-      {/* <Footer /> */}
     </div>
   );
 }
