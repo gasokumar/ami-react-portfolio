@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ami-react-portfolio/static/css/main.1a8a0596.css",
-    "main.js": "/ami-react-portfolio/static/js/main.988eca07.js",
+    "main.js": "/ami-react-portfolio/static/js/main.3ac7ac6a.js",
     "index.html": "/ami-react-portfolio/index.html",
     "main.1a8a0596.css.map": "/ami-react-portfolio/static/css/main.1a8a0596.css.map",
-    "main.988eca07.js.map": "/ami-react-portfolio/static/js/main.988eca07.js.map"
+    "main.3ac7ac6a.js.map": "/ami-react-portfolio/static/js/main.3ac7ac6a.js.map"
   },
   "entrypoints": [
     "static/css/main.1a8a0596.css",
-    "static/js/main.988eca07.js"
+    "static/js/main.3ac7ac6a.js"
   ]
 }
